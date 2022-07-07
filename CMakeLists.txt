@@ -20,3 +20,6 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON CACHE INTERNAL "")
 
 # Build type - Release by default
 message("CMake build type: " ${CMAKE_BUILD_TYPE})
+
+# Project modules
+add_subdirectory(src)
